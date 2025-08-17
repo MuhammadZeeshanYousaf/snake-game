@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #388E3C;
 }
 
 #restart-btn {
@@ -78,14 +78,14 @@ button:hover {
 }
 
 .instructions h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
     color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .instructions p {
-    margin-bottom: 5px;
-    color: #666;
+    margin-bottom: 8px;
+    color: #555;
 }
 
 @media (max-width: 500px) {
@@ -96,5 +96,14 @@ button:hover {
     
     .score-container {
         flex-direction: column;
+    }
+    
+    .controls {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button {
+        margin: 5px 0;
     }
 }
